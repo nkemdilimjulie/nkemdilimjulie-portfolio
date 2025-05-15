@@ -57,3 +57,8 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+When you "deactivate" Angular, you're simply stopping work. There's no special `"deactivation"` like in Python virtual environments.
+
+To get your dependencies back, simply run **npm install** from within the project folder to reinstall everything.
