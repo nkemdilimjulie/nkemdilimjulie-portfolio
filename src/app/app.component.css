@@ -1,5 +1,5 @@
 nav {
-  background: #333;
+  background: #47e5eb;
   padding: 10px;
   display: flex;
   gap: 20px;
@@ -10,5 +10,15 @@ a {
 }
 a.active {
   font-weight: bold;
+  text-decoration: underline;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #1f548d;
+}
+
+nav a:hover {
   text-decoration: underline;
 }
