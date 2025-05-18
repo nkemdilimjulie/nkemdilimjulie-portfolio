@@ -1,6 +1,33 @@
-<h2>{{ "Title: " + title }}</h2>
+<!-- <h2>{{ "Title: " + title }}</h2>
 <ul>
   <li *ngFor="let project of projects">
     <a [href]="project" target="_blank">{{ project }}</a>
   </li>
+</ul> -->
+
+<h2>{{ title }}</h2>
+<ul>
+  <li *ngFor="let project of projects">
+    <a [href]="project.url" target="_blank">{{ project.title }}</a>
+  </li>
 </ul>
+
+
+ <div class="project-container">
+  <p>Projects</p>
+  <p>My Tech Stack <br><br>
+    <strong>Backend:</strong><br>
+    ➔ Fundamentals: Linux, Version Control, Programming, Web Development, Agile Methodologies<br>
+    ➔ Python: Core Python, Text Handling, Dates, Collections, Control Structures (Statements and Loops), Functions, Logical and Algorithmic Thinking, Debugging, Object-Oriented Programming (Basics and Advanced), Exception Handling, Testing, Coding Standards, File I/O, Libraries<br>
+    ➔ Databases: Database usage in Python, Advanced SQL, Data Consistency, Basic Performance Optimization<br>
+    ➔ Frameworks: ORM, Django (Admin, Views & Templates, Forms, Sessions, Middleware), Django Logging & Custom Commands, Django Testing<br>
+    ➔ APIs: API Basics, REST API<br>
+    ➔ Cloud Services: AWS, GCP<br>
+    ➔ Professional German Language Training<br><br>
+
+    including,<br><br>
+
+    <strong>Frontend:</strong><br>
+    ➔ JavaScript with React and TypeScript using Angular
+  </p>
+</div>

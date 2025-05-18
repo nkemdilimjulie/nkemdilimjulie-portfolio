@@ -1,3 +1,11 @@
 h1 {
     color: #8d1f49;
 } 
+
+.home-container {
+  max-width: 800px;  /* limit the width */
+  margin: 0 auto;    /* center the content */
+  padding: 20px;     /* add spacing around */
+  line-height: 1.6;  /* improve readability */
+  font-size: 16px;
+}
