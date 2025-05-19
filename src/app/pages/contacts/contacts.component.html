@@ -1,1 +1,48 @@
-<p>contact works!</p>
+<!-- <p>contact works!</p> -->
+
+
+<h2>Contact Me</h2>
+
+<h3>Email</h3>
+<ul>
+  <li *ngFor="let email of emails">
+    <a [href]="'mailto:' + email">{{ email }}</a>
+  </li>
+</ul>
+
+<h3>Phone</h3>
+<ul>
+  <li *ngFor="let phone of phoneNumbers">{{ phone }}</li>
+</ul>
+
+<h3>LinkedIn</h3>
+<p>
+  <a [href]="linkedInUrl" target="_blank">Visit my LinkedIn Profile</a>
+</p>
+<hr>
+
+<h3>XING</h3>
+<p>
+  <a [href]="XINGUrl" target="_blank">Visit my XING Profile</a>
+</p>
+<hr>
+
+<h3>Send Me a Message</h3>
+<form (ngSubmit)="submitForm()">
+  <label>
+    Name:
+    <input type="text" [(ngModel)]="formData.name" name="name" required>
+  </label><br><br>
+
+  <label>
+    Email:
+    <input type="email" [(ngModel)]="formData.email" name="email" required>
+  </label><br><br>
+
+  <label>
+    Message:<br>
+    <textarea [(ngModel)]="formData.message" name="message" rows="4" required></textarea>
+  </label><br><br>
+
+  <button type="submit">Send</button>
+</form>
