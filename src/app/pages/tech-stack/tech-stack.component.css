@@ -1,0 +1,61 @@
+/* .tech-stack {
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.tech-stack h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.tech-stack ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tech-stack li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+.tech-stack img {
+  width: 24px;
+  height: 24px;
+}
+ */
+
+h1 {
+    color: #8d1f49;
+} 
+
+p {
+  font-size: large;
+}
+
+.container {
+  max-width: 800px;  /* limit the width */
+  margin: 0 auto;    /* center the content */
+  padding: 20px;     /* add spacing around */
+  line-height: 1.6;  /* improve readability */
+  font-size: 16px;
+}
+
+.point {
+  background-color: #f5d9d9;
+  padding: 30px;
+  border-radius: 70px;
+}
+
+.right {
+  max-width: 800px;  /* limit the width */
+  margin: 0 auto;    /* center the content */
+  padding: 20px;     /* add spacing around */
+  line-height: 1.6;  /* improve readability */
+  font-size: 16px;
+}

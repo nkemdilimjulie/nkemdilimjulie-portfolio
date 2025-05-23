@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
+import { FormsModule } from '@angular/forms';
+
 import { AppComponent } from './app.component';
 import { appRoutes } from './app-routes';
 
@@ -11,6 +13,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { ProjectsService } from './pages/projects/projects.service';
+import { AboutService } from './pages/about/about.service';
+import { TechStackComponent } from '.pages/tech-stack/tech-stack.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +22,16 @@ import { ProjectsService } from './pages/projects/projects.service';
     HomeComponent,
     AboutComponent,
     ProjectsComponent,
-    ContactsComponent
+    ContactsComponent,
+    TechStackComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes) // ✅ required for <router-outlet>
   ],
   providers: [
-    ProjectsService
+    ProjectsService, AboutService
   ],
   bootstrap: [AppComponent]
 })

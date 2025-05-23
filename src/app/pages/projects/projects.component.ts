@@ -67,12 +67,13 @@
 
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
+import { AboutComponent } from "../about/about.component";
 
 @Component({
   standalone: true,
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  imports: [NgFor],  // ✅ Add this line
+  imports: [NgFor, AboutComponent],  // ✅ Add this line
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {

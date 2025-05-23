@@ -1,7 +1,30 @@
+h2 {
+  color: #9b3232;
+}
+
 .project-container {
   max-width: 800px;  /* limit the width */
   margin: 0 auto;    /* center the content */
   padding: 20px;     /* add spacing around */
   line-height: 1.6;  /* improve readability */
   font-size: 16px;
+  background-color: #f5d9d9;
+  padding: 30px;
+  border-radius: 70px;
+}
+
+.point {
+  color: #991616;
+  max-width: 800px;  /* limit the width */
+  margin: 0 auto;    /* center the content */
+  padding: 20px;     /* add spacing around */
+  line-height: 1.6;  /* improve readability */
+  background-color: #f5d9d9;
+  padding: 30px;
+  border-radius: 70px;
+  font-size: large;
+}
+
+li {
+  color: rgb(18, 150, 150);
 }

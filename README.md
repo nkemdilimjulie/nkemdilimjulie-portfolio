@@ -62,3 +62,9 @@ For more information on using the Angular CLI, including detailed command refere
 When you "deactivate" Angular, you're simply stopping work. There's no special `"deactivation"` like in Python virtual environments.
 
 To get your dependencies back, simply run **npm install** from within the project folder to reinstall everything.
+
+
+Contact Form Email Sending via EmailJS (No backend needed)
+🔧 1.1. Install emailjs-com
+
+npm install emailjs-com
