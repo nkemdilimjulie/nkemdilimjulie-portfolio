@@ -6,6 +6,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { TechStackComponent } from './pages/tech-stack/tech-stack.component';
+import { SendMessageComponent } from './pages/send-message/send-message.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'contacts', component: ContactsComponent },
   { path: 'tech-stack', component: TechStackComponent },
+  { path: 'send-message', component: SendMessageComponent },
 ];
 
 @NgModule({

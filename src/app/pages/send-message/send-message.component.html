@@ -1,0 +1,38 @@
+
+<h2>Send Message</h2>
+<div class="message-container">
+  <h3>Send Me a Message</h3>
+
+  <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+    <label>
+      Title:
+      <input type="text" [(ngModel)]="formData.title" name="title" required>
+    </label>
+    <div *ngIf="contactForm.submitted && !formData.title" style="color:red;">Title is required.</div><br>
+
+    <label>
+      Name:
+      <input type="text" [(ngModel)]="formData.name" name="name" required>
+    </label>
+    <div *ngIf="contactForm.submitted && !formData.name" style="color:red;">Name is required.</div><br>
+
+    <label>
+      Email:
+      <input type="email" [(ngModel)]="formData.email" name="email" required>
+    </label>
+    <div *ngIf="contactForm.submitted && !formData.email" style="color:red;">Email is required.</div><br>
+
+    <label>
+      Message:
+      <textarea [(ngModel)]="formData.message" name="message" rows="4" required></textarea>
+    </label>
+    <div *ngIf="contactForm.submitted && !formData.message" style="color:red;">Message is required.</div><br>
+
+    <button type="submit" [disabled]="!contactForm.valid">Send</button>
+  </form>
+
+  <br>
+  <button (click)="toggleTheme()">Toggle Theme</button>
+
+</div>
+

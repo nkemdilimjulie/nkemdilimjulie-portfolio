@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
@@ -15,6 +16,7 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { ProjectsService } from './pages/projects/projects.service';
 import { AboutService } from './pages/about/about.service';
 import { TechStackComponent } from '.pages/tech-stack/tech-stack.component';
+import { SendMessageComponent } from '.pages/send-message/send-message.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { TechStackComponent } from '.pages/tech-stack/tech-stack.component';
     AboutComponent,
     ProjectsComponent,
     ContactsComponent,
-    TechStackComponent
+    TechStackComponent,
+    SendMessageComponent
   ],
   imports: [
     BrowserModule,
