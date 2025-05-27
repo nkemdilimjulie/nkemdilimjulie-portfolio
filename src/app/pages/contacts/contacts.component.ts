@@ -129,6 +129,8 @@ export class ContactsComponent {
   phoneNumbers: string[] = ['+4915780253047'];
   linkedInUrl = 'https://www.linkedin.com/in/nkemdilim-julie-chime-13a755339/';
   XINGUrl = 'https://www.xing.com/profile/NkemdilimJulie_Chime/web_profiles';
+  GitHubUrl = 'https://github.com/nkemdilimjulie/';
+  DockerHubUrl = 'https://hub.docker.com/repository/docker/julie0707/product-review-code-react-frontend/general'
   formData = {
     title: '',
     name: '',
@@ -136,27 +138,5 @@ export class ContactsComponent {
     message: ''
   };
 
-  submitForm() {
-    const serviceID = 'service_5vqs5Ik';
-    const templateID = 'template_shrjrqb';
-    const userID = 'FQ1KKZM0vDrkKVtlU';
-
-    emailjs.send(serviceID, templateID, {
-      from_title: this.formData.title,
-      from_name: this.formData.name,
-      from_email: this.formData.email,
-      message: this.formData.message
-    }, userID)
-    .then(() => {
-      alert('Message sent successfully!');
-      this.formData = { title: '', name: '', email: '', message: '' };
-    }, (error) => {
-      console.error('Failed to send message:', error);
-      alert('Failed to send. Please try again.');
-    });
-  }
-
-  toggleTheme() {
-    document.body.classList.toggle('dark-theme');
-  }
+  
 }

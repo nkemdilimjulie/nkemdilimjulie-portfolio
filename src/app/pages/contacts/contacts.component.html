@@ -3,10 +3,12 @@
 
 <div class="contact-container">
   <h3>Email</h3>
+  
   <ul>
     <li *ngFor="let email of emails">
       <a [href]="'mailto:' + email">{{ email }}</a>
     </li>
+    <p>You can send me message <br> Click on my email address above. <br>(But remember to include your contact information  - especially your own email address or link - as part of the content of your message)  </p>
   </ul>
   <hr>
 
@@ -15,19 +17,24 @@
     <li *ngFor="let phone of phoneNumbers">{{ phone }}</li>
   </ul>
   <hr>
-
-  <h3>LinkedIn</h3>
-  <p>
-    <a [href]="linkedInUrl" target="_blank">Visit my LinkedIn Profile</a>
-  </p>
+  <h3>Visit my</h3>
+  <ul>
+    <li> <p>
+    <a [href]="linkedInUrl" target="_blank"> LinkedIn Profile</a>
+      </p></li>
+    <li><p>
+    <a [href]="XINGUrl" target="_blank"> XING Profile</a>
+      </p></li>
+    <li><p>
+    <a [href]="GitHubUrl" target="_blank"> GitHub Profile</a>
+      </p></li>
+    <li><p>
+    <a [href]="DockerHubUrl" target="_blank"> DockerHub Profile</a>
+      </p></li>
+  </ul>
   <hr>
 
-  <h3>XING</h3>
-  <p>
-    <a [href]="XINGUrl" target="_blank">Visit my XING Profile</a>
-  </p>
-  <hr>
-</div>
+
 
 
 

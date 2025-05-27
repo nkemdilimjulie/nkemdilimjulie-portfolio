@@ -83,20 +83,42 @@ h2 {
 ul {
   list-style: none;
   padding-left: 0;
+  text-align: justify;
 }
 
 ul li::before {
-  content: "✔ ";
-  color: green;
+  content: "✔✔✔ ";
+  color: #af4f4f;
+  
 }
 
 p {
   font-size: large;
+  text-align: justify;
 }
 
 .point {
   color: #af4f4f;
 }
+
+.other-skills li::before {
+  content: "✔ ";
+  color: #10aa62;
+  
+}
+
+.main-point {
+  color: #04a30ce7;
+  font-style:italic;
+  font-size: larger;
+}
+
+
+
+/* .tech-soft-skills{
+  content: "✔ ";
+  color: #af4f4f;
+} */
 /* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
 /* 
 .about-container {

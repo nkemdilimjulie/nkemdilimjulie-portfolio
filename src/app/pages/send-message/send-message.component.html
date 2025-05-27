@@ -1,5 +1,4 @@
-
-<h2>Send Message</h2>
+<!-- <h2>Send Message</h2>
 <div class="message-container">
   <h3>Send Me a Message</h3>
 
@@ -32,7 +31,32 @@
   </form>
 
   <br>
-  <button (click)="toggleTheme()">Toggle Theme</button>
+  <button (click)="toggleTheme()">Toggle Theme</button> 
 
-</div>
+  </div>  -->
+
+
+<form (ngSubmit)="submitForm()" *ngIf="!isSubmitting">
+  <label>Title:
+    <input type="text" [(ngModel)]="formData.title" name="title" required>
+  </label><br>
+
+  <label>Name:
+    <input type="text" [(ngModel)]="formData.name" name="name" required>
+  </label><br>
+
+  <label>Email:
+    <input type="email" [(ngModel)]="formData.email" name="email" required>
+  </label><br>
+
+  <label>Message:
+    <textarea [(ngModel)]="formData.message" name="message" required></textarea>
+  </label><br>
+
+  <button type="submit">Send Message</button>
+</form>
+
+<div *ngIf="isSubmitting">Sending message...</div>
+<div *ngIf="messageSent" style="color: green;">Message sent successfully!</div>
+<div *ngIf="errorSending" style="color: red;">Failed to send. Please try again.</div>
 

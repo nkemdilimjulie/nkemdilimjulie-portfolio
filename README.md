@@ -68,3 +68,29 @@ Contact Form Email Sending via EmailJS (No backend needed)
 🔧 1.1. Install emailjs-com
 
 npm install emailjs-com
+
+## Angular app for production/deployment and not for development
+When your app created for **developemnt** is to be used for **production**:
+
++ make sure you have **environment.prod.ts** instead of environment.ts inside environment folder.
++ change to production in angular.json with this code:
+```
+"fileReplacements": [
+  {
+    "replace": "src/environments/environment.ts",
+    "with": "src/environments/environment.prod.ts"
+  }
+]
+```
+
++ Then, run the production app with:
+
+```
+ng build --configuration=production
+
+```
+The code swaps in the environment.prod.ts automatically.
+
+
+## send message component is to be continued later
+left for future expansion

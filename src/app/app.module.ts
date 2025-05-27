@@ -15,23 +15,23 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { ProjectsService } from './pages/projects/projects.service';
 import { AboutService } from './pages/about/about.service';
-import { TechStackComponent } from '.pages/tech-stack/tech-stack.component';
-import { SendMessageComponent } from '.pages/send-message/send-message.component';
+import { TechStackComponent } from './pages/tech-stack/tech-stack.component';
+// import { SendMessageComponent } from '.pages/send-message/send-message.component';
+
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    AboutComponent,
-    ProjectsComponent,
-    ContactsComponent,
-    TechStackComponent,
-    SendMessageComponent
-  ],
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes) // ✅ required for <router-outlet>
+    RouterModule.forRoot(appRoutes),
+    
+    AppComponent,
+    AboutComponent,
+    HomeComponent,
+    ProjectsComponent,
+    ContactsComponent,
+    TechStackComponent,
+    // SendMessageComponent 
   ],
   providers: [
     ProjectsService, AboutService
