@@ -1,0 +1,18 @@
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: none; /* initially hidden */
+  z-index: 1000;
+}
+
+.back-to-top.show {
+  display: block;
+}
