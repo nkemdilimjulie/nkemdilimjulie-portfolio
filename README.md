@@ -94,3 +94,7 @@ The code swaps in the environment.prod.ts automatically.
 
 ## send message component is to be continued later
 left for future expansion
+
+
+![Screenshot](src/assets/images/readme-for-all-projects.png)
+

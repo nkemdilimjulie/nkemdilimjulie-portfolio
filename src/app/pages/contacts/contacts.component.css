@@ -46,8 +46,7 @@ button {
 
 h2 {
   color: #8d1f49;
-  background-color: #f5d9d9;
-  padding: 30px;
+
 } 
 
 
@@ -60,3 +59,7 @@ h2 {
   border-radius: 70px;
 }
 
+h2:hover {
+  color: rgb(63, 131, 131);
+  background-color: #f5d9d9;
+}

@@ -36,3 +36,44 @@ li {
   color: #9b3232;
   
 }
+
+h2:hover {
+  color: rgb(63, 131, 131);
+  background-color: #f5d9d9;
+}
+
+.reach-out {
+  font-style: italic;
+  color: #9b3232;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content:space-evenly;
+  padding: 20px;
+  flex-wrap: wrap; /* Responsive */
+}
+
+
+/* .left,
+.right {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+} */
+
+
+.right {
+  background-color: #e9f0ff;
+  padding: 30px;
+  border-radius: 70px;
+}
+
+
+.left {
+  background-color: #f5d9d9;
+  padding: 50px;
+  border-radius: 70px;
+}

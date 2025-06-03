@@ -65,4 +65,12 @@ p {
   font-size: larger;
 }
 
+.intelligent {
+  color: #10aa62;
+  font-style: italic;
+}
 
+
+.title {
+  color: #af4f4f;
+}

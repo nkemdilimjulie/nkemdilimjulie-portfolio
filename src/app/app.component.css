@@ -26,3 +26,8 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+h1:hover {
+  color: rgb(31, 116, 23);
+  background-color: bisque;
+}

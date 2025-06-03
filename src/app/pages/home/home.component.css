@@ -28,3 +28,18 @@ p {
   border-radius: 70px;
 
 }
+
+h1:hover {
+  color: rgb(63, 131, 131);
+  background-color: #f5d9d9;
+}
+
+
+.video-intro:hover {
+  color: rgb(63, 131, 131);
+  background-color: #f5d9d9;
+}
+
+.hello2:hover {
+  color: rgb(14, 106, 226);
+}
