@@ -17,7 +17,8 @@ export class ProjectsComponent {
     { title: 'Portfolio', url: 'https://github.com/nkemdilimjulie/nkemdilimjulie-portfolio' },
     { title: 'Product Review App', url: 'https://github.com/nkemdilimjulie/Product-Review-code' },
     { title: 'Product Review Backend App', url: 'https://github.com/nkemdilimjulie/Product-Review-Backend-Final-Project' },
-    { title: 'World Weather App', url: 'https://github.com/nkemdilimjulie/weatherworld' }
+    { title: 'World Weather App', url: 'https://github.com/nkemdilimjulie/weatherworld' },
+    { title: 'Train-Up-A-Child App', url: 'https://github.com/nkemdilimjulie/Train-Up-A-Child-Frontend' } 
   ];
 
   

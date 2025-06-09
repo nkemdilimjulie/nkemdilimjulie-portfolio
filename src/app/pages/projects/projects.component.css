@@ -77,3 +77,7 @@ h2:hover {
   padding: 50px;
   border-radius: 70px;
 }
+
+.big {
+  color: rgb(18, 150, 150);
+}

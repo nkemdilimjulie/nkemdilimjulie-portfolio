@@ -29,6 +29,13 @@ p {
 
 }
 
+.video-boundary {
+   background-color: #f5d9d9;
+  padding: 50px;
+  border-radius: 70px;
+}
+
+
 h1:hover {
   color: rgb(63, 131, 131);
   background-color: #f5d9d9;
@@ -43,3 +50,30 @@ h1:hover {
 .hello2:hover {
   color: rgb(14, 106, 226);
 }
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content:space-evenly;
+  padding: 20px;
+  flex-wrap: wrap; /* Responsive */
+}
+
+
+.left {
+  background-color: #f5d9d9;
+  padding: 50px;
+  border-radius: 70px;
+}
+
+
+
+.right {
+  background-color: #e9f0ff;
+  padding: 30px;
+  border-radius: 70px;
+}
+
+
