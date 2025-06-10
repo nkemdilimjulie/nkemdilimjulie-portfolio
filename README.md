@@ -97,13 +97,50 @@ ng build --configuration=production
 ```
 The code swaps in the environment.prod.ts automatically.
 
-**``Deployment``**
+### **``Deployment``**
 
  + `Deploy` with **GitHub Pages**. 
- + `Push` to **GitHub Pages** after every code modification.
 
-## send message component is to be continued later
-left for future expansion
+🔁 Typical Workflow After Changes
+1. Make code changes
 
+2. Build production with:
 
+```
+ng build --output-path=dist/nkemdilimjulie-portfolio --base-href=/nkemdilimjulie-portfolio/
+```
+
+3. Update the docs folder:
+```
+mkdir -p docs
+cp -r dist/nkemdilimjulie-portfolio/browser/* docs/
+```
+
+This step replaces the contents of docs/ with the latest build output.
+
+4. Commit and push:
+
+```
+git add .
+git commit -m "Update deployment"
+git push origin main
+```
+### Alternatively, Replace Steps 1 - 4 with an in-built script (Automated)
+You could create an npm script in your **package.json** to simplify this:
+
+```
+"scripts": {
+  "deploy-gh": "ng build --output-path=dist/nkemdilimjulie-portfolio --base-href=/nkemdilimjulie-portfolio/ && rm -rf docs && mkdir -p docs && cp -r dist/nkemdilimjulie-portfolio/browser/* docs/"
+}
+```
+Then just run:
+
+```
+npm run deploy-gh
+git add .
+git commit -m "Deploy updated site"
+git push origin main
+```
+
+### Conclusion on Deployment
 
