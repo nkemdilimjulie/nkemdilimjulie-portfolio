@@ -97,6 +97,10 @@ ng build --configuration=production
 ```
 The code swaps in the environment.prod.ts automatically.
 
+**``Deployment``**
+
+ + `Deploy` with **GitHub Pages**. 
+ + `Push` to **GitHub Pages** after every code modification.
 
 ## send message component is to be continued later
 left for future expansion

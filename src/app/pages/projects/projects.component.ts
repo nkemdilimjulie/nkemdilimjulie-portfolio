@@ -21,18 +21,4 @@ export class ProjectsComponent {
     { title: 'Train-Up-A-Child App', url: 'https://github.com/nkemdilimjulie/Train-Up-A-Child-Frontend' } 
   ];
 
-  
-  // isScrolled = false;
-
-  // ngOnInit(): void {
-  //   window.addEventListener('scroll', this.checkScroll, true);
-  // }
-
-  // checkScroll = (): void => {
-  //   this.isScrolled = window.pageYOffset > 300;
-  // };
-
-  // ngOnDestroy(): void {
-  //   window.removeEventListener('scroll', this.checkScroll, true);
-  // }
 }

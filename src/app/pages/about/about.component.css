@@ -9,7 +9,8 @@
 }
 
 .left,
-.right {
+.right, 
+.middle {
   flex: 1;
   min-width: 300px;
   max-width: 600px;
@@ -23,6 +24,12 @@
 
 .right {
   background-color: #e9f0ff;
+  padding: 30px;
+  border-radius: 70px;
+}
+
+.middle {
+   background-color: #f5d9d9;
   padding: 30px;
   border-radius: 70px;
 }
@@ -73,4 +80,55 @@ p {
 
 .title {
   color: #af4f4f;
+}
+
+.achievements-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.achievements-section h2 {
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.achievement-category {
+  margin-bottom: 25px;
+}
+
+.achievement-category h3 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.achievement-category ul {
+  padding-left: 20px;
+}
+
+.achievement-category li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.portable {
+  background-color: #e9f0ff;
+  padding: 30px;
+  border-radius: 70px;
+}
+
+
+.portable:hover {
+  background-color: #f5d9d9;
+}
+
+.right:hover {
+  background-color: #f5d9d9;
+}
+
+.left:hover {
+   background-color: #e9f0ff;
+}
+.middle:hover {
+   background-color: #e9f0ff;
 }
