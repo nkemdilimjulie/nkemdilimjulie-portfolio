@@ -132,3 +132,20 @@ p {
 .middle:hover {
    background-color: #e9f0ff;
 }
+
+.intelligent-1 {
+  background-color: #f5d9d9;
+  padding: 50px;
+  border-radius: 70px;
+}
+
+
+.container-1 {
+  display: flex; 
+  gap: 20px;
+  align-items: flex-start;
+  justify-content:first baseline;
+  padding: 15px;
+  margin: 10px;
+  flex-wrap: wrap; /* Responsive */
+}

@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy-gh": "ng build --output-path=dist/nkemdilimjulie-portfolio --base-href=/nkemdilimjulie-portfolio/ && rm -rf docs && mkdir -p docs && cp -r dist/nkemdilimjulie-portfolio/browser/* docs/"
   },
   "private": true,
   "dependencies": {
