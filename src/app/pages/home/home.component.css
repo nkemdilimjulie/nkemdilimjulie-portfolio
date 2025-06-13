@@ -76,4 +76,6 @@ h1:hover {
   border-radius: 70px;
 }
 
-
+.right:hover {
+  color: rgb(65, 8, 110);
+}
