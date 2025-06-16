@@ -2,6 +2,53 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
 
+## 🚀 Features
+
+- Responsive design using Angular components
+- Project gallery with links to live demos and GitHub repositories
+- About Me section
+- Skills display (e.g. programming languages, tools)
+- Contact section with email address; optional mailto form (coming soon)
+- Reusable components like back-to-top button
+- Clean and accessible UI
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: Angular 15+
+- **Language**: TypeScript
+- **Styling**: CSS / SCSS / Bootstrap / Tailwind (customizable)
+- **Icons**: FontAwesome or similar
+
+
+---
+
+## 📁 Folder Structure
+
+nkemdilimjulie-portfolio/
+
+├── src/
+
+│ ├── app/
+
+│ │ ├── pages/ # Pages: Home, About, Projects, Contact
+
+│ │ └── app.module.ts
+
+│ ├── assets/ # Static images and icons
+
+│ ├── environments/ # Angular environment files
+
+│ └── index.html
+
+├── angular.json
+
+├── package.json
+
+└── README.md
+
+
 ## Development server
 
 To start a local development server, run:
