@@ -1,9 +1,2 @@
 
-export class ProjectsService {
-    // getProjects() {
-    //     return projects;
-
-    // }
-
-
-}
+export class ProjectsService {}

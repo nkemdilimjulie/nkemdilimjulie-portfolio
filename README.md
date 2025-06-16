@@ -13,6 +13,7 @@ ng serve
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding
+> This means creating a temporary structure for your project or setting everything up for your project. It is typically associated with code generation for database CRUD (Create, Read, Update and Delete) operations. 
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
@@ -57,7 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 ## README file snippet for all my projects
 
-![Screenshot](src/assets/images/README_for_all_projects.png)
+<!-- ![Screenshot](src/assets/images/README_for_all_projects.png) -->
 
 
 ## Additional Resources

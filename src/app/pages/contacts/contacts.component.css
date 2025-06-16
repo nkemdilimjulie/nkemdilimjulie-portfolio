@@ -49,7 +49,6 @@ h2 {
 
 } 
 
-
 .contact-container {
   max-width: 800px;  /* limit the width */
   margin: 0 auto;    /* center the content */
@@ -57,11 +56,6 @@ h2 {
   line-height: 1.6;  /* improve readability */
   font-size: 16px;
   border-radius: 70px;
-}
-
-
-.video-boundary {
-  
 }
 
 

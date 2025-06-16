@@ -56,15 +56,6 @@ h2:hover {
   flex-wrap: wrap; /* Responsive */
 }
 
-
-/* .left,
-.right {
-  flex: 1;
-  min-width: 300px;
-  max-width: 600px;
-} */
-
-
 .right {
   background-color: #e9f0ff;
   padding: 30px;
@@ -80,4 +71,8 @@ h2:hover {
 
 .big {
   color: rgb(18, 150, 150);
+}
+
+.ol-color {
+  color: black;
 }
