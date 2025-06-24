@@ -45,6 +45,7 @@ h2:hover {
 .reach-out {
   font-style: italic;
   color: #9b3232;
+  display: inline;
 }
 
 .container {

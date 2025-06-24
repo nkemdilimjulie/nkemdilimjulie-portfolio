@@ -203,7 +203,14 @@ git push origin main
 #### To switch to a gh-pages branch deployment method instead — that removes the need for a docs/ folder.
 (To be done later, when and if needed)
 
+## Reminder: 
+## Development server
 
+To start a local development server, run:
+
+```bash
+ng serve
+```
 
 
 
