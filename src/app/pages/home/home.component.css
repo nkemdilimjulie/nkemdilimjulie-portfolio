@@ -20,7 +20,6 @@ p {
   border-radius: 70px;
 }
 
-
 .video-intro {
   
   background-color: #f5d9d9;
@@ -34,7 +33,6 @@ p {
   padding: 50px;
   border-radius: 70px;
 }
-
 
 h1:hover {
   color: rgb(63, 131, 131);
@@ -50,28 +48,40 @@ h1:hover {
   color: rgb(14, 106, 226);
 }
 
-
-.container {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-  justify-content:space-evenly;
-  padding: 20px;
-  flex-wrap: wrap; /* Responsive */
-}
-
-.left {
-  background-color: #f5d9d9;
-  padding: 50px;
-  border-radius: 70px;
-}
-
-.right {
-  background-color: #e9f0ff;
-  padding: 30px;
-  border-radius: 70px;
+p:hover {
+  color: rgb(60, 19, 126);
 }
 
 .right:hover {
   color: rgb(65, 8, 110);
+} 
+ 
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 20px;
+  flex-wrap: wrap; 
+}
+
+.left,
+.right
+ {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.left {
+  background-color: #f5d9d9;
+  padding: 30px;
+  border-radius: 70px;
+}
+
+.right {
+  background-color: #f5d9d9;
+  border-radius: 70px;
+  border: 1px solid #ccc;
+  width: 200%;
+  height: 900px;
 }
