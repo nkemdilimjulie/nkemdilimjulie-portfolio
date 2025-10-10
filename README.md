@@ -197,7 +197,7 @@ As such, I shall always, after every code modification, run this:
 ```
 npm run deploy-gh
 git add .
-git commit -m "Deploy updated site"
+git commit -m "Deploy updated site once again"
 git push origin main
 ```
 #### To switch to a gh-pages branch deployment method instead — that removes the need for a docs/ folder.
@@ -211,6 +211,7 @@ To start a local development server, run:
 ```bash
 ng serve
 ```
+npm cache clean --force
 
 
 
