@@ -144,8 +144,10 @@ ng build --configuration=production
 
 ```
 The code swaps in the environment.prod.ts automatically.
+---
 
-### **``Deployment``**
+### **``Deployment and Code Modification``**
+### (Please, see "Conclusion on Deployment" below)
 > (Remember to wait a minute or two after deployment for the changes to reflect)
  + `Deploy` with **GitHub Pages**. 
 
@@ -193,11 +195,11 @@ git push origin main
 ### Conclusion on Deployment
 
 I have added the script for automated deployment into **package.json**.
-As such, I shall always, after every code modification, run this:
+As such, I shall always, after every **code modification**, run this:
 ```
 npm run deploy-gh
 git add .
-git commit -m "Deploy updated site once again"
+git commit -m "Update deployment again"
 git push origin main
 ```
 #### To switch to a gh-pages branch deployment method instead — that removes the need for a docs/ folder.
